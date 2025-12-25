@@ -87,7 +87,7 @@ config_after_install() {
 
         read -p "Do you want to change admin credentials [y/n]? ": admin_confirm
         if [[ "${admin_confirm}" == "y" || "${admin_confirm}" == "Y" ]]; then
-            # First admin credentials
+            # First admin credentials 
             read -p "Please set up your username:" config_account
             read -p "Please set up your password:" config_password
 
